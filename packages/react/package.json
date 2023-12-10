@@ -1,0 +1,40 @@
+{
+  "name": "@pilaton/eslint-config-react",
+  "version": "0.1.0",
+  "description": "ESLint configuration for React projects",
+  "keywords": [
+    "eslint",
+    "flatConfig",
+    "typescript",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pilaton/eslint-eco.git",
+    "directory": "packages/react"
+  },
+  "license": "MIT",
+  "author": "Pilaton <dev@pilaton.com> (https://pilaton.com)",
+  "type": "module",
+  "exports": {
+    "import": "./src/index.js"
+  },
+  "main": "./src/index.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "eslint-plugin-tailwindcss": "^3.13.0"
+  },
+  "devDependencies": {
+    "eslint-define-config": "^2.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-define-config": "^2.0.0"
+  }
+}

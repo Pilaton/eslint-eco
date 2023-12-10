@@ -1,0 +1,32 @@
+{
+  "name": "eslint-eco",
+  "version": "0.1.0",
+  "private": "true",
+  "description": "Monorepository with all necessary ESLint configurations",
+  "keywords": [
+    "eslint",
+    "flatConfig",
+    "typescript",
+    "react",
+    "tailwindcss",
+    "next",
+    "markdown",
+    "mdx"
+  ],
+  "license": "MIT",
+  "author": "Pilaton <dev@pilaton.com> (https://pilaton.com)",
+  "type": "module",
+  "workspaces": [
+    "./packages/*"
+  ],
+  "scripts": {
+    "lint": "eslint packages/"
+  },
+  "dependencies": {
+    "eslint-define-config": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0"
+  },
+  "packageManager": "pnpm@8.11.0"
+}

@@ -1,0 +1,77 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+  packages: write
+  id-token: write
+
+jobs:
+  linting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+
+      - name: Use Node.js
+        uses: actions/setup-node@main
+        with:
+          node-version: latest
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@master
+        with:
+          version: latest
+
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Run lint
+        run: pnpm run lint
+
+  release-please-action:
+    needs: ['linting']
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@main
+        id: release-action
+    # with:
+    #   release-type: node
+    outputs:
+      is-release-created: ${{ steps.release-action.outputs.releases_created }}
+
+  release:
+    needs: [release-please-action]
+    if: ${{ needs.release-please-action.outputs.is-release-created == 'true' }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - name: NPM
+            registry: https://registry.npmjs.org/
+            token-name: NPM_TOKEN
+          - name: GitHub Packages
+            registry: https://npm.pkg.github.com/
+            token-name: GITHUB_TOKEN
+    steps:
+      - uses: actions/checkout@main
+
+      - uses: actions/setup-node@main
+        with:
+          node-version: '20.x'
+          registry-url: ${{ matrix.registry }}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@master
+        with:
+          version: latest
+
+      - name: Publish to ${{ matrix.name }}
+        run: pnpm -r publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets[matrix.token-name] }}
+          NPM_CONFIG_PROVENANCE: true

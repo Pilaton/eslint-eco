@@ -1,0 +1,37 @@
+{
+  "name": "@pilaton/eslint-config-next",
+  "version": "0.1.0",
+  "description": "ESLint configuration for Next.js projects",
+  "keywords": [
+    "eslint",
+    "flatConfig",
+    "typescript",
+    "react",
+    "next"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pilaton/eslint-eco.git",
+    "directory": "packages/next"
+  },
+  "license": "MIT",
+  "author": "Pilaton <dev@pilaton.com> (https://pilaton.com)",
+  "type": "module",
+  "exports": {
+    "import": "./src/index.js"
+  },
+  "main": "./src/index.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@next/eslint-plugin-next": "^14.0.4"
+  },
+  "devDependencies": {
+    "eslint-define-config": "^2.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-define-config": "^2.0.0"
+  }
+}

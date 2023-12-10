@@ -1,0 +1,18 @@
+{
+  "$schema": "https://github.com/googleapis/release-please/raw/main/schemas/config.json",
+  "packages": {
+    "packages/base": {
+      "package-name": "base"
+    },
+    "packages/react": {
+      "package-name": "react"
+    },
+    "packages/next": {
+      "package-name": "next"
+    },
+    "packages/markdown": {
+      "package-name": "markdown"
+    }
+  },
+  "plugins": ["node-workspace"]
+}

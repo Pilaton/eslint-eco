@@ -10,11 +10,11 @@ ESLint configuration including all necessary plugins for testing React project c
 
 ## Included in the package
 
-1. React plugin [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react)
-2. React-hooks plugin [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks)
-3. React-refresh plugin [`eslint-plugin-react-refresh`](https://www.npmjs.com/package/eslint-plugin-react-refresh)
-4. jsx-a11y plugin [`eslint-plugin-jsx-a11y`](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
-5. Tailwind CSS plugin [`eslint-plugin-tailwindcss`](https://www.npmjs.com/package/eslint-plugin-tailwindcss)
+1. [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react)
+2. [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+3. [`eslint-plugin-react-refresh`](https://www.npmjs.com/package/eslint-plugin-react-refresh)
+4. [`eslint-plugin-jsx-a11y`](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
+5. [`eslint-plugin-tailwindcss`](https://www.npmjs.com/package/eslint-plugin-tailwindcss)
 
 ## Install
 

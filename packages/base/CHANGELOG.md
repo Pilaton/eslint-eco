@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/Pilaton/eslint-eco/compare/base-v0.2.0...base-v0.3.0) (2023-12-11)
+
+
+### Features
+
+* **docs:** more details ([b159b1a](https://github.com/Pilaton/eslint-eco/commit/b159b1a3db8cc1212c3d581fa0667aa0fa99f4a1))
+
 ## [0.2.0](https://github.com/Pilaton/eslint-eco/compare/base-v0.1.0...base-v0.2.0) (2023-12-10)
 
 

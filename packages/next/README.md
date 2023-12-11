@@ -1,6 +1,6 @@
 # @pilaton/eslint-config-next
 
-![npm](https://img.shields.io/npm/v/%40pilaton%2Feslint-config-react?style=for-the-badge&logo=npm&labelColor=%231955FF&color=%231955FF)
+![npm](https://img.shields.io/npm/v/%40pilaton%2Feslint-config-next?style=for-the-badge&logo=npm&labelColor=%231955FF&color=%231955FF)
 
 ESLint configuration for code inspection of Next.js projects.
 

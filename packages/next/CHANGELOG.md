@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/Pilaton/eslint-eco/compare/next-v1.0.0...next-v1.0.1) (2023-12-11)
+
+
+### Bug Fixes
+
+* **docs:** badge ([a19ff23](https://github.com/Pilaton/eslint-eco/commit/a19ff236b3b1d48fc5aafc9ddba93da3d34c6867))
+
 ## [1.0.0](https://github.com/Pilaton/eslint-eco/compare/next-v0.2.0...next-v1.0.0) (2023-12-11)
 
 

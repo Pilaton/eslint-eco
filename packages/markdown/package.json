@@ -1,6 +1,6 @@
 {
   "name": "@pilaton/eslint-config-markdown",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "ESLint configuration for checking markdown files",
   "keywords": [
     "eslint",

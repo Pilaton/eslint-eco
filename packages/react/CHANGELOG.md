@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.0](https://github.com/Pilaton/eslint-eco/compare/react-v0.3.0...react-v1.0.0) (2023-12-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **docs:** more details
+
+### Features
+
+* **docs:** more details ([d7a90f4](https://github.com/Pilaton/eslint-eco/commit/d7a90f4658b183589ae3a3dca4373311eb09afcb))
+
 ## [0.3.0](https://github.com/Pilaton/eslint-eco/compare/react-v0.2.0...react-v0.3.0) (2023-12-11)
 
 

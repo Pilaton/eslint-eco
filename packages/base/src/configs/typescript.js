@@ -18,10 +18,13 @@ const config = defineFlatConfig({
     },
   },
   rules: {
+    ...typescriptPlugin.configs.recommended.rules,
+    ...typescriptPlugin.configs['recommended-type-checked'].rules,
+    ...typescriptPlugin.configs['stylistic-type-checked'].rules,
     ...standardTSConfig.rules,
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/strict-boolean-expressions': 'off',
-    '@typescript-eslint/no-explicit-any': 'error',
+    '@typescript-eslint/no-non-null-assertion': 'off',
   },
 });
 export default config;

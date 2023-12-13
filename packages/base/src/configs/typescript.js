@@ -21,6 +21,7 @@ const config = defineFlatConfig({
     ...standardTSConfig.rules,
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/strict-boolean-expressions': 'off',
+    '@typescript-eslint/no-explicit-any': 'error',
   },
 });
 export default config;

@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/Pilaton/eslint-eco/compare/base-v0.3.0...base-v0.4.0) (2023-12-13)
+
+
+### Features
+
+* add TS rule ([be34c21](https://github.com/Pilaton/eslint-eco/commit/be34c212e0cc0da2566bc3990b0d51babec9ca59))
+
 ## [0.3.0](https://github.com/Pilaton/eslint-eco/compare/base-v0.2.0...base-v0.3.0) (2023-12-11)
 
 

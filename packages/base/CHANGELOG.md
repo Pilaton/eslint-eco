@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/Pilaton/eslint-eco/compare/base-v0.4.0...base-v0.4.1) (2023-12-13)
+
+
+### Bug Fixes
+
+* Add [@typescript-eslint](https://github.com/typescript-eslint) recommended-type-checked and stylistic-type-checked rules ([7120362](https://github.com/Pilaton/eslint-eco/commit/712036251c1670f848f830a63bb8cb6a008af409))
+
 ## [0.4.0](https://github.com/Pilaton/eslint-eco/compare/base-v0.3.0...base-v0.4.0) (2023-12-13)
 
 

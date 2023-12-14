@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.2](https://github.com/Pilaton/eslint-eco/compare/base-v0.4.1...base-v0.4.2) (2023-12-14)
+
+
+### Bug Fixes
+
+* Add **/*{jsx,tsx} to import, promise and standard ([ec0cb5a](https://github.com/Pilaton/eslint-eco/commit/ec0cb5aa9f174678a7fd1853b6b54d8ee15785bb))
+
 ## [0.4.1](https://github.com/Pilaton/eslint-eco/compare/base-v0.4.0...base-v0.4.1) (2023-12-13)
 
 

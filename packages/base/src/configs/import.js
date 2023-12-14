@@ -3,7 +3,7 @@ import { defineFlatConfig } from 'eslint-define-config';
 import importPlugin from 'eslint-plugin-import';
 
 const config = defineFlatConfig({
-  files: ['**/*{js,cjs,mjs}', '**/*{ts,mts}', '**/*.{test,spec,d}.ts'],
+  files: ['**/*{js,cjs,mjs}', '**/*{ts,mts}', '**/*{jsx,tsx}', '**/*.{test,spec,d}.ts'],
   settings: {
     configName: 'Import',
   },

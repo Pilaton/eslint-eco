@@ -6,7 +6,7 @@ import nodePlugin from 'eslint-plugin-n';
 import promisePlugin from 'eslint-plugin-promise';
 
 const config = defineFlatConfig({
-  files: ['**/*{js,cjs,mjs}', '**/*{ts,mts}', '**/*.{test,spec,d}.ts'],
+  files: ['**/*{js,cjs,mjs}', '**/*{ts,mts}', '**/*{jsx,tsx}', '**/*.{test,spec,d}.ts'],
   settings: {
     configName: 'standard',
   },

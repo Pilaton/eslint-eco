@@ -2,15 +2,15 @@ import { defineFlatConfig } from 'eslint-define-config';
 import unicornPlugin from 'eslint-plugin-unicorn';
 
 const config = defineFlatConfig({
-  files: ['**/*'],
   settings: {
     configName: 'Unicorn',
   },
-  plugins: {
-    unicorn: unicornPlugin,
-  },
+
+  files: ['**/*'],
+  ...unicornPlugin.configs['flat/recommended'],
+
   rules: {
-    ...unicornPlugin.configs.recommended.rules,
+    ...unicornPlugin.configs['flat/recommended'].rules,
 
     'unicorn/prevent-abbreviations': [
       'error',

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/Pilaton/eslint-eco/compare/react-v1.1.0...react-v1.2.0) (2024-02-06)
+
+
+### Features
+
+* **update:** update packages ([173068c](https://github.com/Pilaton/eslint-eco/commit/173068c30afe426ebc915b04f1188051dd274439))
+
 ## [1.1.0](https://github.com/Pilaton/eslint-eco/compare/react-v1.0.0...react-v1.1.0) (2024-01-21)
 
 

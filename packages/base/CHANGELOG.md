@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.0.0](https://github.com/Pilaton/eslint-eco/compare/base-v0.7.0...base-v1.0.0) (2024-02-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* Remove eslint-plugin-prettier
+* eslint-config-prettier removed
+* Remove eslint-plugin-prettier
+
+### Features
+
+* Update packages ([686b542](https://github.com/Pilaton/eslint-eco/commit/686b54209aac16f13ceacfea0415529aee8be1c2))
+
+
+### Bug Fixes
+
+* eslint-config-prettier removed ([0cf1b0c](https://github.com/Pilaton/eslint-eco/commit/0cf1b0c7b79b063f6e460251e8ccfb36fdc32709))
+* Remove eslint-plugin-prettier ([c06e004](https://github.com/Pilaton/eslint-eco/commit/c06e004398c15c1ceb5415012dc883880a1fce35))
+* Remove eslint-plugin-prettier ([d4f88bd](https://github.com/Pilaton/eslint-eco/commit/d4f88bd1b30ad02a3b3308700c3b993e20824bff))
+
 ## [0.7.0](https://github.com/Pilaton/eslint-eco/compare/base-v0.6.0...base-v0.7.0) (2024-02-06)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.1](https://github.com/Pilaton/eslint-eco/compare/base-v0.7.0...base-v0.7.1) (2024-02-09)
+
+
+### Bug Fixes
+
+* **docs:** link to npm fix ([beff06d](https://github.com/Pilaton/eslint-eco/commit/beff06da720a5ebd750862181fede42fd6299022))
+
 ## [0.7.0](https://github.com/Pilaton/eslint-eco/compare/base-v0.6.0...base-v0.7.0) (2024-02-06)
 
 

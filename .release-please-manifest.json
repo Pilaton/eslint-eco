@@ -1,6 +1,6 @@
 {
-  "packages/base": "0.7.0",
+  "packages/base": "1.0.0",
   "packages/react": "1.2.0",
-  "packages/next": "1.1.0",
-  "packages/markdown": "1.1.0"
+  "packages/next": "2.0.0",
+  "packages/markdown": "2.0.0"
 }

@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/Pilaton/eslint-eco/compare/next-v1.1.0...next-v2.0.0) (2024-02-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* Remove eslint-plugin-prettier
+
+### Bug Fixes
+
+* Remove eslint-plugin-prettier ([d4f88bd](https://github.com/Pilaton/eslint-eco/commit/d4f88bd1b30ad02a3b3308700c3b993e20824bff))
+
 ## [1.1.0](https://github.com/Pilaton/eslint-eco/compare/next-v1.0.1...next-v1.1.0) (2024-01-21)
 
 

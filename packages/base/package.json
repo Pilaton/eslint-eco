@@ -1,6 +1,6 @@
 {
   "name": "@pilaton/eslint-config-base",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "description": "Basic ESLint configuration including Javascript and Typescript checks",
   "keywords": [
     "eslint",

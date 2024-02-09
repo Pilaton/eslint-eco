@@ -15,7 +15,7 @@ The configuration includes basic JS and TS code checks.
 3. [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import) — ES2015+ (ES6+) import/export syntax linting support
 4. [`eslint-plugin-promise`](https://www.npmjs.com/package/eslint-plugin-promise) – The best practices for JS/TS promises
 5. [`eslint-plugin-unicorn`](https://www.npmjs.com/package/eslint-plugin-unicorn) — More than 100 powerful ESLint rules
-6. [`eslint-config-prettier`](https://www.npmjs.com/package/eslint-config-prettier) — Turns off all rules that are unnecessary or might conflict with Prettier.
+6. [`eslint-plugin-prettier`](https://www.npmjs.com/package/eslint-plugin-prettier) and [`eslint-prettier-configs`](https://www.npmjs.com/package/eslint-prettier-configs)
 7. [`eslint-config-standard`](https://www.npmjs.com/package/eslint-config-standard) — Rules to make your code conform to the general practices of the «JS Standard Code Style»
 8. [`eslint-config-standard-with-typescript`](https://www.npmjs.com/package/eslint-config-standard-with-typescript) — Rules for TypeScript to comply with the «JS Standard Code Style»
 

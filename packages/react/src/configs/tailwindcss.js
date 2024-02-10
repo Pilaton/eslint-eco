@@ -11,6 +11,7 @@ const config = defineFlatConfig({
   },
   rules: {
     ...tailwindcssPlugin.configs.recommended.rules,
+    'tailwindcss/no-custom-classname': 'off', // Very slow rule
   },
 });
 

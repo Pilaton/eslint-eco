@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.0](https://github.com/Pilaton/eslint-eco/compare/base-v0.7.1...base-v1.0.0) (2024-02-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* Remove eslint-plugin-prettier
+
+### Bug Fixes
+
+* Remove eslint-plugin-prettier ([2930f58](https://github.com/Pilaton/eslint-eco/commit/2930f58a2f3fe0d5613af98f27e9cb817b758c73))
+
 ## [0.7.1](https://github.com/Pilaton/eslint-eco/compare/base-v0.7.0...base-v0.7.1) (2024-02-09)
 
 

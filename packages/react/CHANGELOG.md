@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/Pilaton/eslint-eco/compare/react-v1.3.0...react-v1.4.0) (2024-03-04)
+
+
+### Features
+
+* Update packages ([7bb9416](https://github.com/Pilaton/eslint-eco/commit/7bb94167d6c51a2f1f8da7b69c20f1096f43e093))
+
 ## [1.3.0](https://github.com/Pilaton/eslint-eco/compare/react-v1.2.0...react-v1.3.0) (2024-02-10)
 
 

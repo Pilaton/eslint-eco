@@ -1,26 +1,40 @@
-import typescriptPlugin from '@typescript-eslint/eslint-plugin';
-import typescriptParser from '@typescript-eslint/parser';
 import standardTSConfig from 'eslint-config-standard-with-typescript';
-import { defineFlatConfig } from 'eslint-define-config';
+import {
+  configs,
+  config as tsEslintConfigFunction,
+  plugin as tsEslintPlugin,
+  parser as tsEslintParser,
+} from 'typescript-eslint';
 
-const config = defineFlatConfig({
+const tsEslintConfig = {};
+for (const config of [
+  ...configs.recommended,
+  ...configs.recommendedTypeChecked,
+  ...configs.stylisticTypeChecked,
+]) {
+  if ('rules' in config) {
+    Object.assign(tsEslintConfig, config.rules);
+  }
+}
+
+const config = tsEslintConfigFunction({
   files: ['**/*.{ts,tsx}', '**/*.{test,spec,d}.ts'],
   settings: {
     configName: 'Typescript',
   },
   plugins: {
-    '@typescript-eslint': typescriptPlugin,
+    '@typescript-eslint': tsEslintPlugin,
   },
+
   languageOptions: {
-    parser: typescriptParser,
+    parser: tsEslintParser,
     parserOptions: {
       project: true,
     },
   },
+
   rules: {
-    ...typescriptPlugin.configs.recommended.rules,
-    ...typescriptPlugin.configs['recommended-type-checked'].rules,
-    ...typescriptPlugin.configs['stylistic-type-checked'].rules,
+    ...tsEslintConfig,
     ...standardTSConfig.rules,
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/strict-boolean-expressions': 'off',

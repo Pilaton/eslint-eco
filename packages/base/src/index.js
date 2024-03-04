@@ -34,7 +34,7 @@ export default defineFlatConfig([
   promiseConfig,
   standardConfig,
 
-  typescriptConfig,
+  ...typescriptConfig,
   unicornConfig,
   prettierConfig,
 ]);

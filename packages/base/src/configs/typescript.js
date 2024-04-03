@@ -1,4 +1,4 @@
-import standardTSConfig from 'eslint-config-standard-with-typescript';
+import loveConfig from 'eslint-config-love';
 import {
   configs,
   config as tsEslintConfigFunction,
@@ -35,7 +35,7 @@ const config = tsEslintConfigFunction({
 
   rules: {
     ...tsEslintConfig,
-    ...standardTSConfig.rules,
+    ...loveConfig.rules,
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/strict-boolean-expressions': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',

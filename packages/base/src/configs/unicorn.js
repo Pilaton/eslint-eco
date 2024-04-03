@@ -27,6 +27,7 @@ const config = defineFlatConfig({
       },
     ],
     'unicorn/no-null': 'off',
+    'unicorn/import-style': 'off',
   },
 });
 export default config;

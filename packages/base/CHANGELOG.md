@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/Pilaton/eslint-eco/compare/base-v1.1.0...base-v1.2.0) (2024-04-03)
+
+
+### Features
+
+* Update packages ([8a1a8ad](https://github.com/Pilaton/eslint-eco/commit/8a1a8ad58e8629191abb933df14b55b46c2ab5c3))
+
+
+### Bug Fixes
+
+* Add custom rule for the unicorn ([a1676c4](https://github.com/Pilaton/eslint-eco/commit/a1676c4575f2fc4c019d09465311d01ef1e7a61c))
+
 ## [1.1.0](https://github.com/Pilaton/eslint-eco/compare/base-v1.0.0...base-v1.1.0) (2024-03-04)
 
 

@@ -23,15 +23,16 @@
     "src"
   ],
   "dependencies": {
-    "@eslint/js": "^8.57.0",
-    "eslint-config-love": "^44.0.0",
+    "@eslint/js": "^9.2.0",
+    "eslint-config-love": "^47.0.0",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-unicorn": "^52.0.0",
-    "globals": "^15.0.0",
-    "typescript-eslint": "^7.5.0"
+    "globals": "^15.1.0",
+    "typescript-eslint": "^7.8.0"
   },
   "devDependencies": {
     "eslint-define-config": "^2.1.0"

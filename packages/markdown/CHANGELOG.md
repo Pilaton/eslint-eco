@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/Pilaton/eslint-eco/compare/markdown-v1.2.0...markdown-v1.3.0) (2024-05-06)
+
+
+### Features
+
+* Update packages ([744d6a7](https://github.com/Pilaton/eslint-eco/commit/744d6a7820c0311c18a7f635f1041300a0f24fb9))
+
 ## [1.2.0](https://github.com/Pilaton/eslint-eco/compare/markdown-v1.1.0...markdown-v1.2.0) (2024-03-04)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/Pilaton/eslint-eco/compare/next-v1.3.0...next-v1.4.0) (2024-05-06)
+
+
+### Features
+
+* Update packages ([4787f21](https://github.com/Pilaton/eslint-eco/commit/4787f213b772fd181e03bb9270d2dda7df826274))
+
 ## [1.3.0](https://github.com/Pilaton/eslint-eco/compare/next-v1.2.0...next-v1.3.0) (2024-04-03)
 
 
